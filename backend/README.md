@@ -38,15 +38,19 @@ first, so be specific about which endpoints call which Cloudinary features.)_
 - **Backend:** Node.js + Express
 - **Media:** Cloudinary
 - **AI/Logic:** [Palak to fill in]
-- **Database:** [TBD — Postgres or MongoDB]
+- **Database:** MongoDB (via Mongoose)
 
 ## Project Structure
 
 ```
 vybe-backend/
 ├── config/
-│   └── cloudinary.js       # Cloudinary SDK setup
+│   ├── cloudinary.js       # Cloudinary SDK setup
+│   └── db.js               # MongoDB connection
+├── models/
+│   └── Project.js          # Project schema — vibe, photos, poses, board
 ├── routes/
+│   ├── projects.js         # POST /projects, GET/PATCH /projects/:id
 │   ├── upload.js            # POST /upload
 │   ├── analyze.js           # POST /analyze  (Palak's logic plugs in here)
 │   ├── poses.js              # POST /poses    (Palak's logic plugs in here)

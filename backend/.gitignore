@@ -1,0 +1,19 @@
+# Environment / secrets
+.env
+.env.local
+
+# Dependencies
+node_modules/
+
+# Uploads (never commit user photos)
+uploads/*
+!uploads/.gitkeep
+
+# Build output
+dist/
+build/
+
+# OS / editor junk
+.DS_Store
+*.log
+.vscode/
