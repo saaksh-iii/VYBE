@@ -1,0 +1,19 @@
+:root {
+  /* 🎨 Colors */
+  --cream: #FBF3EC;
+  --deep-cream: #F6E2D3;
+  --ink: #2B2420;
+  --soft-ink: #6B5D53;
+  --terracotta: #E08D6D;
+  --deep-terracotta: #C96F4E;
+  --gold: #C9A876;
+  --lavender: #DCC9DE;
+
+  /* 🟦 Border Radius */
+  --radius-card: 18px;
+  --radius-pill: 999px;
+
+  /* ✍️ Fonts */
+  --font-headline: 'Fraunces', serif;
+  --font-body: 'Manrope', sans-serif;
+}
